@@ -53,7 +53,7 @@ li {
     position: absolute;
 }
 .navigation ul li a {
-    color: #yellow;
+    color: yellow;
     display: block;
     padding: 0 24px;
     }

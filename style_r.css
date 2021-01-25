@@ -1,0 +1,36 @@
+body {
+  background-color: lightskyblue;
+}
+
+ul {
+  position: relative;
+  display: inline-block;
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.main-point a {
+  color: white;
+}
+
+.dropdown-container {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+}
+
+.dropdown-container a {
+  color: lightskyblue;
+}
+
+.dropdown-container a:hover {
+  color: blue;
+}
+
+ul:hover .dropdown-container {
+  display: block;
+}
